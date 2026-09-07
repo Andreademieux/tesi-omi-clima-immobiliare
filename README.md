@@ -18,12 +18,6 @@ Fonti dei dati sottostanti: Osservatorio del Mercato Immobiliare (OMI, Agenzia d
 
 Pipeline Python che integra le diverse fonti di rischio nel dataset OMI e produce i modelli e le tabelle di analisi (scaricamento dati OMI, integrazione dei singoli rischi, costruzione dell'indice di esposizione, stima dei modelli edonici, test di robustezza).
 
-## Cosa NON è incluso
-
-- **Estensione basata su annunci di immobiliare.it**: deriva da un dataset Kaggle ("Italian Real Estate") con termini di licenza da verificare; esclusa per prudenza.
-- **Raster climatici grezzi** (es. E-OBS `.nc`): dati di terze parti con termini d'uso propri, non prodotti da questo progetto.
-- **Letteratura accademica** (PDF) usata come riferimento bibliografico: non redistribuibile per motivi di copyright.
-- Il database SQLite grezzo con le griglie climatiche non ancora aggregate (i CSV in `data/` ne sono l'output finale già pulito e pronto per l'analisi).
 
 ## Nota
 
